@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="LpkBlog:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="LpkBlog-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="LpkBlog:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,348 @@
+!SESSION 2018-07-20 10:24:24.361 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -login -application com.aptana.commandline.launcher.LauncherApplication C:\Users\lenovo\Desktop\前端\ace-ui框架\ace-tab\assets\js\ace.min.js
+Command-line arguments:  -os win32 -ws win32 -arch x86 -login -data   -application com.aptana.commandline.launcher.LauncherApplication C:\Users\lenovo\Desktop\前端\ace-ui框架\ace-tab\assets\js\ace.min.js
+
+!ENTRY com.aptana.rcp 1 0 2018-07-20 10:24:24.911
+!MESSAGE (Build null) [INFO]  ide start check begin
+
+!ENTRY com.aptana.rcp 4 0 2018-07-20 10:24:24.917
+!MESSAGE (Build null) [ERROR]  getRawLocationURI: file:/C:/Users/lenovo/Desktop/前端/ace-ui框架/ace-tab/assets/js
+
+!ENTRY com.aptana.rcp 4 0 2018-07-20 10:24:24.924
+!MESSAGE (Build null) [ERROR]  checkInstanceLocation
+
+!ENTRY com.pandora.core.utils 4 0 2018-07-20 10:24:24.933
+!MESSAGE (Build null) [ERROR]  remote-debugging-port == 55809
+
+!ENTRY com.aptana.rcp 4 0 2018-07-20 10:24:24.940
+!MESSAGE (Build null) [ERROR]  init CEF
+
+!ENTRY org.eclipse.ui 2 0 2018-07-20 10:24:25.040
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-07-20 10:24:25.040
+!MESSAGE Could not parse key sequence: plug-in='com.pandora.ui', id='org.eclipse.ui.edit.text.contentAssist.proposals', keySequence='Ctrl+Sapce'
+
+!ENTRY com.aptana.rcp 4 0 2018-07-20 10:24:25.218
+!MESSAGE (Build null) [ERROR]  ********HBuilder正常启动：preStartup********
+
+!ENTRY org.eclipse.ui 4 4 2018-07-20 10:24:25.375
+!MESSAGE Unable to create menu item "org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction", command "org.eclipse.ui.cheatsheets.actions.CheatSheetHelpMenuAction" not defined
+
+!ENTRY com.aptana.scripting 4 0 2018-07-20 10:24:26.327
+!MESSAGE (Build null) [ERROR]  An error occurred while parsing scope 'Build–in constant' : Cannot recover from the syntax error
+
+!ENTRY com.aptana.scripting 4 0 2018-07-20 10:24:26.329
+!MESSAGE (Build null) [ERROR]  An error occurred while parsing scope 'library class/type' : Cannot recover from the syntax error
+
+!ENTRY com.aptana.rcp 4 0 2018-07-20 10:24:26.487
+!MESSAGE (Build null) [ERROR]  ---------------------start check----------------------
+
+!ENTRY com.aptana.rcp 4 0 2018-07-20 10:24:26.487
+!MESSAGE check mode
+
+!ENTRY com.aptana.rcp 4 0 2018-07-20 10:24:26.544
+!MESSAGE (Build null) [ERROR]  workspace : file:\C:\Users\lenovo\Desktop\前端\ace-ui框架\ace-tab\assets\js
+
+!ENTRY com.aptana.rcp 4 0 2018-07-20 10:24:26.782
+!MESSAGE (Build null) [ERROR]  ********HBuilder正常启动：postStartup********
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2018-07-20 10:24:26.881
+!MESSAGE (Build null) [ERROR]  HBuilder当前版本: 8.0.2.201703061842
+
+!ENTRY com.aptana.editor.css 4 0 2018-07-20 10:24:26.999
+!MESSAGE (Build null) [ERROR]  开始清理css错误marker...
+
+!ENTRY com.aptana.editor.css 4 0 2018-07-20 10:24:27.000
+!MESSAGE (Build null) [ERROR]  清理css错误marker结束
+
+!ENTRY com.pandora.index.store 4 0 2018-07-20 10:24:27.395
+!MESSAGE (Build null) [ERROR]  IndexStoreService started!!!
+
+!ENTRY com.pandora.launcher.core 4 0 2018-07-20 10:24:27.500
+!MESSAGE (Build null) [ERROR]  系统找不到指定的文件。
+!STACK 0
+com.sun.jna.platform.win32.Win32Exception: 系统找不到指定的文件。
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringValue(Advapi32Util.java:552)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.loadPath(LibraryFinder.java:58)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.<clinit>(LibraryFinder.java:50)
+	at com.pandora.launcher.core.iphone.jna.md.LibraryInstance.getMDLibrary(LibraryInstance.java:15)
+	at com.pandora.launcher.core.iphone.jna.idevice.win.WinDeviceLibrary.<clinit>(WinDeviceLibrary.java:68)
+	at com.pandora.launcher.core.iphone.jna.idevice.DeviceLibraryRegistry.getDeviceLibrary(DeviceLibraryRegistry.java:15)
+	at com.pandora.launcher.core.iphone.IPhoneLauncher.<init>(IPhoneLauncher.java:79)
+	at com.pandora.launcher.core.listener.DeviceStartupListener.earlyStartup(DeviceStartupListener.java:29)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$63.run(Workbench.java:2489)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.launcher.core 4 0 2018-07-20 10:24:27.504
+!MESSAGE (Build null) [ERROR]  系统找不到指定的文件。
+!STACK 0
+com.sun.jna.platform.win32.Win32Exception: 系统找不到指定的文件。
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringValue(Advapi32Util.java:552)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.loadPath(LibraryFinder.java:58)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.getMDLibrary(LibraryFinder.java:122)
+	at com.pandora.launcher.core.iphone.jna.md.LibraryInstance.getMDLibrary(LibraryInstance.java:15)
+	at com.pandora.launcher.core.iphone.jna.idevice.win.WinDeviceLibrary.<clinit>(WinDeviceLibrary.java:68)
+	at com.pandora.launcher.core.iphone.jna.idevice.DeviceLibraryRegistry.getDeviceLibrary(DeviceLibraryRegistry.java:15)
+	at com.pandora.launcher.core.iphone.IPhoneLauncher.<init>(IPhoneLauncher.java:79)
+	at com.pandora.launcher.core.listener.DeviceStartupListener.earlyStartup(DeviceStartupListener.java:29)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$63.run(Workbench.java:2489)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.launcher.core 4 0 2018-07-20 10:24:27.519
+!MESSAGE (Build null) [ERROR]  添加Android设备监听......
+
+!ENTRY com.pandora.launcher.core 4 0 2018-07-20 10:24:27.527
+!MESSAGE (Build null) [ERROR]  系统找不到指定的文件。
+!STACK 0
+com.sun.jna.platform.win32.Win32Exception: 系统找不到指定的文件。
+	at com.sun.jna.platform.win32.Advapi32Util.registryGetStringValue(Advapi32Util.java:552)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.loadPath(LibraryFinder.java:58)
+	at com.pandora.launcher.core.iphone.jna.LibraryFinder.getMDLibrary(LibraryFinder.java:122)
+	at com.pandora.launcher.core.iphone.jna.md.LibraryInstance.getMDLibrary(LibraryInstance.java:15)
+	at com.pandora.launcher.core.iphone.jna.idevice.win.WinDeviceLibrary.addNotificationHandler(WinDeviceLibrary.java:73)
+	at com.pandora.launcher.core.iphone.IPhoneLauncher$5.run(IPhoneLauncher.java:653)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.pandora.launcher.core 4 0 2018-07-20 10:24:27.533
+!MESSAGE (Build null) [ERROR]  library is null!!!!!
+
+!ENTRY com.pandora.stats.core 1 0 2018-07-20 10:24:27.553
+!MESSAGE 
+
+!ENTRY com.aptana.parsing 4 0 2018-07-20 10:24:27.769
+!MESSAGE (Build null) [ERROR]  无效的属性类型“.webkit.SearchBoxImpl@4135441”属性“searchBoxJavaBridge_”
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2018-07-20 10:24:28.488
+!MESSAGE D:\software\HBuilder_8.0.2_windows\HBuilder\p2\org.eclipse.equinox.p2.repository\cache\content-561804826.jar 是合法的jar
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2018-07-20 10:24:28.892
+!MESSAGE D:\software\HBuilder_8.0.2_windows\HBuilder\p2\org.eclipse.equinox.p2.repository\cache\content1190459293.jar 是合法的jar
+
+!ENTRY com.aptana.scripting 4 0 2018-07-20 10:24:29.224
+!MESSAGE (Build null) [ERROR]  loadBundles异常
+!STACK 0
+org.jruby.exceptions.RaiseException: (Errno::EINVAL) =::
+	at org.jruby.RubyHash.replace(org/jruby/RubyHash.java:1623)
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2018-07-20 10:24:29.387
+!MESSAGE (Build null) [ERROR]  最新版本: 9.0.8.201806081953
+
+!ENTRY com.pandora.rcp.upgrade 4 0 2018-07-20 10:24:29.411
+!MESSAGE (Build null) [ERROR]  上次提醒更新版本: 9.0.8.201806081953
+
+!ENTRY com.aptana.commandline.launcher 4 0 2018-07-20 10:24:29.440
+!MESSAGE Stream closed
+!STACK 0
+java.io.IOException: Stream closed
+	at java.io.BufferedReader.ensureOpen(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at com.aptana.commandline.launcher.server.LauncherServer$CommandLineArgsServer.run(LauncherServer.java:135)
+
+!ENTRY com.aptana.commandline.launcher 4 0 2018-07-20 10:24:29.646
+!MESSAGE Stream closed
+!STACK 0
+java.io.IOException: Stream closed
+	at java.io.BufferedReader.ensureOpen(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at java.io.BufferedReader.readLine(Unknown Source)
+	at com.aptana.commandline.launcher.server.LauncherServer$CommandLineArgsServer.run(LauncherServer.java:135)
+
+!ENTRY com.aptana.index.core 4 0 2018-07-20 10:24:29.876
+!MESSAGE (Build null) [ERROR]  [INDEX_PROCESS_DEBUG] null
+
+!ENTRY com.aptana.index.core 4 0 2018-07-20 10:24:29.877
+!MESSAGE (Build null) [ERROR]  [DEBUG:]INDEXER_SERVER_STARTED_FAILED
+
+!ENTRY com.pandora.nodejs 4 0 2018-07-20 10:24:37.118
+!MESSAGE (Build null) [ERROR]  taskkill /F /IM hb_node.exe
+
+!ENTRY com.pandora.nodejs 4 0 2018-07-20 10:24:37.123
+!MESSAGE (Build null) [ERROR]  D:\software\HBuilder_8.0.2_windows\HBuilder\plugins\com.pandora.nodejs.win32_1.0.0.201603031741\lib\hb_node.exe   D:\software\HBuilder_8.0.2_windows\HBuilder\plugins\com.pandora.nodejs.thrift_1.0.0.201702102040\js\serviceServer.js 19293
+
+!ENTRY com.pandora.nodejs 4 0 2018-07-20 10:24:37.892
+!MESSAGE (Build null) [ERROR]  create Server listen 127.0.0.1:19293
+
+!ENTRY com.pandora.nodejs 4 0 2018-07-20 10:24:37.964
+!MESSAGE (Build null) [ERROR]  node server 启动: true  800
+
+!ENTRY com.pandora.stats.core 4 0 2018-07-20 10:25:30.791
+!MESSAGE (Build null) [ERROR]  list job time: 3185
+
+!ENTRY com.aptana.rcp 4 0 2018-07-20 10:27:12.834
+!MESSAGE (Build null) [ERROR]  ********HBuilder正常关闭：preShutdown********
+
+!ENTRY com.aptana.commandline.launcher 4 0 2018-07-20 10:27:12.838
+!MESSAGE socket closed
+!STACK 0
+java.net.SocketException: socket closed
+	at java.net.TwoStacksPlainSocketImpl.socketAccept(Native Method)
+	at java.net.AbstractPlainSocketImpl.accept(Unknown Source)
+	at java.net.PlainSocketImpl.accept(Unknown Source)
+	at java.net.ServerSocket.implAccept(Unknown Source)
+	at java.net.ServerSocket.accept(Unknown Source)
+	at com.aptana.commandline.launcher.server.LauncherServer$CommandLineArgsServer.run(LauncherServer.java:129)
+
+!ENTRY com.aptana.rcp 4 0 2018-07-20 10:27:13.149
+!MESSAGE (Build null) [ERROR]  ********HBuilder正常关闭：postShutdown********
+
+!ENTRY com.pandora.launcher.core 4 0 2018-07-20 10:27:13.423
+!MESSAGE (Build null) [ERROR]  Cannot run program "wmic": CreateProcess error=2, ϵͳÕҲ»µ½ָ¶
+!STACK 0
+java.io.IOException: Cannot run program "wmic": CreateProcess error=2, ϵͳÕҲ»µ½ָ¶
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at com.pandora.launcher.core.android.AndroidLauncher.killADBProcess(AndroidLauncher.java:1484)
+	at com.pandora.launcher.core.android.AndroidLauncher.killADBServer(AndroidLauncher.java:132)
+	at com.pandora.launcher.core.ADBExitListener.exit(ADBExitListener.java:12)
+	at com.pandora.core.utils.IDEExitUtils.ideExit(IDEExitUtils.java:32)
+	at com.aptana.rcp.IDEWorkbenchAdvisor.disconnectFromWorkspace(IDEWorkbenchAdvisor.java:998)
+	at com.aptana.rcp.IDEWorkbenchAdvisor.postShutdown(IDEWorkbenchAdvisor.java:869)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:3047)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1124)
+	at org.eclipse.ui.internal.Workbench.access$13(Workbench.java:1043)
+	at org.eclipse.ui.internal.Workbench$25.run(Workbench.java:1303)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1301)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1273)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:739)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:727)
+	at org.eclipse.ui.internal.WorkbenchWindow$6.run(WorkbenchWindow.java:884)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:882)
+	at org.eclipse.jface.window.Window.handleShellCloseEvent(Window.java:741)
+	at org.eclipse.jface.window.Window$3.shellClosed(Window.java:687)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:98)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:309)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1694)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4530)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2527)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2527)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1627)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2532)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3752)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2720)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2684)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2518)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:682)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:671)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.aptana.rcp.IDEApplication.start(IDEApplication.java:319)
+	at com.aptana.commandline.launcher.application.LauncherApplication.start(LauncherApplication.java:76)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:348)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:183)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:655)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1491)
+Caused by: java.io.IOException: CreateProcess error=2, ϵͳÕҲ»µ½ָ¶
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 76 more
+
+!ENTRY com.pandora.launcher.core 4 0 2018-07-20 10:27:14.518
+!MESSAGE (Build null) [ERROR]  Cannot run program "wmic": CreateProcess error=2, ϵͳÕҲ»µ½ָ¶
+!STACK 0
+java.io.IOException: Cannot run program "wmic": CreateProcess error=2, ϵͳÕҲ»µ½ָ¶
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at com.pandora.launcher.core.android.AndroidLauncher.killADBProcess(AndroidLauncher.java:1484)
+	at com.pandora.launcher.core.android.AndroidLauncher.killADBServer(AndroidLauncher.java:132)
+	at com.pandora.launcher.core.LauncherCoreActivator.stop(LauncherCoreActivator.java:70)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:565)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1161)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:595)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:691)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:598)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:394)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:202)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:655)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1491)
+Caused by: java.io.IOException: CreateProcess error=2, ϵͳÕҲ»µ½ָ¶
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 28 more
+
+!ENTRY com.pandora.nodejs 4 0 2018-07-20 10:27:14.834
+!MESSAGE (Build null) [ERROR]  taskkill /F /IM hb_node.exe
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-07-20 10:27:15.819
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.progress.TaskBarProgressManager$2
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-07-20 10:27:15.821
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.pandora.pack.core.download.StartupDownloadPackage$1
+
+!ENTRY com.pandora.launcher.core 4 0 2018-07-20 10:27:15.896
+!MESSAGE (Build null) [ERROR]  Cannot run program "wmic": CreateProcess error=2, ϵͳÕҲ»µ½ָ¶
+!STACK 0
+java.io.IOException: Cannot run program "wmic": CreateProcess error=2, ϵͳÕҲ»µ½ָ¶
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at java.lang.Runtime.exec(Unknown Source)
+	at com.pandora.launcher.core.android.AndroidLauncher.killADBProcess(AndroidLauncher.java:1484)
+	at com.pandora.launcher.core.android.AndroidLauncher.killADBServer(AndroidLauncher.java:132)
+	at com.pandora.launcher.core.listener.DeviceStartupListener$1.run(DeviceStartupListener.java:84)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.IOException: CreateProcess error=2, ϵͳÕҲ»µ½ָ¶
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+	... 8 more
